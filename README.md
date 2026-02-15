@@ -18,7 +18,7 @@ The system must:
 ## 2. Dataset Description
 
 - **Dataset**: BBC News dataset  
-- **Source file**: `bbc_news_text_complexity_summarization.csv`
+- **Source file**: `https://www.kaggle.com/datasets/jacopoferretti/bbc-articles-dataset`
 - **Classes used**:  
   - `sport`
   - `politics`
