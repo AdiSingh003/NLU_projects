@@ -1,0 +1,128 @@
+[
+  {
+    "id": "cbow_d100_w5_n5",
+    "model": "cbow",
+    "dim": 100,
+    "window": 8,
+    "neg": 5,
+    "tag": "PRIMARY",
+    "vocab_size": 2027
+  },
+  {
+    "id": "sgns_d100_w5_n5",
+    "model": "sgns",
+    "dim": 200,
+    "window": 8,
+    "neg": 5,
+    "tag": "PRIMARY",
+    "vocab_size": 2027
+  },
+  {
+    "id": "cbow_d50_w5_n5",
+    "model": "cbow",
+    "dim": 150,
+    "window": 8,
+    "neg": 5,
+    "tag": "DIM_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "cbow_d200_w5_n5",
+    "model": "cbow",
+    "dim": 200,
+    "window": 8,
+    "neg": 5,
+    "tag": "DIM_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "sgns_d50_w5_n5",
+    "model": "sgns",
+    "dim": 250,
+    "window": 8,
+    "neg": 5,
+    "tag": "DIM_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "sgns_d200_w5_n5",
+    "model": "sgns",
+    "dim": 300,
+    "window": 8,
+    "neg": 5,
+    "tag": "DIM_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "cbow_d100_w3_n5",
+    "model": "cbow",
+    "dim": 100,
+    "window": 5,
+    "neg": 5,
+    "tag": "WIN_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "cbow_d100_w10_n5",
+    "model": "cbow",
+    "dim": 200,
+    "window": 10,
+    "neg": 5,
+    "tag": "WIN_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "sgns_d100_w3_n5",
+    "model": "sgns",
+    "dim": 100,
+    "window": 5,
+    "neg": 5,
+    "tag": "WIN_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "sgns_d100_w10_n5",
+    "model": "sgns",
+    "dim": 200,
+    "window": 10,
+    "neg": 5,
+    "tag": "WIN_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "cbow_d100_w5_n1",
+    "model": "cbow",
+    "dim": 100,
+    "window": 8,
+    "neg": 10,
+    "tag": "NEG_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "cbow_d100_w5_n15",
+    "model": "cbow",
+    "dim": 200,
+    "window": 8,
+    "neg": 15,
+    "tag": "NEG_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "sgns_d100_w5_n1",
+    "model": "sgns",
+    "dim": 100,
+    "window": 8,
+    "neg": 10,
+    "tag": "NEG_EXP",
+    "vocab_size": 2027
+  },
+  {
+    "id": "sgns_d100_w5_n15",
+    "model": "sgns",
+    "dim": 200,
+    "window": 8,
+    "neg": 15,
+    "tag": "NEG_EXP",
+    "vocab_size": 2027
+  }
+]
